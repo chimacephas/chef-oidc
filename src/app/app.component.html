@@ -387,7 +387,10 @@
   </div>
 
   <!-- Next Steps -->
-  <h2>Next Steps</h2>
+  <h2>Next Steps    <a href="#" (click)="login($event)" class="slide-nav__login">LOG IN / SIGN UP</a></h2>
+  <h2>Next Level    <a href="#" (click)="logout()" class="slide-nav__login">LOG OUT</a></h2>
+
+  <h2>Next New Level <a href="#" (click)="refresh()" class="slide-nav__login">REFRESH</a></h2>
   <p>What do you want to do next with your app?</p>
 
   <input type="hidden" #selection>
