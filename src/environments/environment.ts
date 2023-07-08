@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   baseUrl: "https://chefspiceapi.azurewebsites.net/api/chefspice/v1/",
   issuerUrl: "https://chefspiceapi.azurewebsites.net",
-  clientUri:"https://chef-oidc.vercel.app/"
+  clientUri:"https://chef-oidc.vercel.app"
 };
 
 /*
